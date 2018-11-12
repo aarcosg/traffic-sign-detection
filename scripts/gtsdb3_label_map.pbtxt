@@ -1,0 +1,15 @@
+item {
+  id: 1
+  name: 'prohibitory'
+}
+
+item {
+  id: 2
+  name: 'mandatory'
+}
+
+item {
+  id: 3
+  name: 'danger'
+}
+

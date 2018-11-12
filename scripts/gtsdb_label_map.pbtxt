@@ -1,0 +1,214 @@
+item {
+  id: 1
+  name: 'speed_limit_20'
+}
+
+item {
+  id: 2
+  name: 'speed_limit_30'
+}
+
+item {
+  id: 3
+  name: 'speed_limit_50'
+}
+
+item {
+  id: 4
+  name: 'speed_limit_60'
+}
+
+item {
+  id: 5
+  name: 'speed_limit_70'
+}
+
+item {
+  id: 6
+  name: 'speed_limit_80'
+}
+
+item {
+  id: 7
+  name: 'restriction_ends_80'
+}
+
+item {
+  id: 8
+  name: 'speed_limit_100'
+}
+
+item {
+  id: 9
+  name: 'speed_limit_120'
+}
+
+item {
+  id: 10
+  name: 'no_overtaking'
+}
+
+item {
+  id: 11
+  name: 'no_overtaking_trucks'
+}
+
+item {
+  id: 12
+  name: 'priority_at_next_intersection'
+}
+
+item {
+  id: 13
+  name: 'priority_road'
+}
+
+item {
+  id: 14
+  name: 'give_way'
+}
+
+item {
+  id: 15
+  name: 'stop'
+}
+
+item {
+  id: 16
+  name: 'no_traffic_both_ways'
+}
+
+item {
+  id: 17
+  name: 'no_trucks'
+}
+
+item {
+  id: 18
+  name: 'no_entry'
+}
+
+item {
+  id: 19
+  name: 'danger'
+}
+
+item {
+  id: 20
+  name: 'bend_left'
+}
+
+item {
+  id: 21
+  name: 'bend_right'
+}
+
+item {
+  id: 22
+  name: 'bend'
+}
+
+item {
+  id: 23
+  name: 'uneven_road'
+}
+
+item {
+  id: 24
+  name: 'slippery_road'
+}
+
+item {
+  id: 25
+  name: 'road_narrows'
+}
+
+item {
+  id: 26
+  name: 'construction'
+}
+
+item {
+  id: 27
+  name: 'traffic_signal'
+}
+
+item {
+  id: 28
+  name: 'pedestrian_crossing'
+}
+
+item {
+  id: 29
+  name: 'school_crossing'
+}
+
+item {
+  id: 30
+  name: 'cycles_crossing'
+}
+
+item {
+  id: 31
+  name: 'snow'
+}
+
+item {
+  id: 32
+  name: 'animals'
+}
+
+item {
+  id: 33
+  name: 'restriction_ends'
+}
+
+item {
+  id: 34
+  name: 'go_right'
+}
+
+item {
+  id: 35
+  name: 'go_left'
+}
+
+item {
+  id: 36
+  name: 'go_straight'
+}
+
+item {
+  id: 37
+  name: 'go_right_or_straight'
+}
+
+item {
+  id: 38
+  name: 'go_left_or_straight'
+}
+
+item {
+  id: 39
+  name: 'keep_right'
+}
+
+item {
+  id: 40
+  name: 'keep_left'
+}
+
+item {
+  id: 41
+  name: 'roundabout'
+}
+
+item {
+  id: 42
+  name: 'restriction_ends_overtaking'
+}
+
+item {
+  id: 43
+  name: 'restriction_ends_overtaking_trucks'
+}
