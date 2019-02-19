@@ -41,7 +41,7 @@ You can download pre-trained models from Google Drive. Unzip them to the `models
 - [rfcn_resnet101](https://drive.google.com/open?id=1eWCDZ5BxcEa7n_jZmWUr2kwHPBi5-SMG)
 - [ssd_inception_v2](https://drive.google.com/open?id=1TKMd-wIZJ1aUcOhWburm2b6WgYnP0ZK6)
 - [ssd_mobilenet_v1](https://drive.google.com/open?id=1U31RhUvE1Urr5Q92AJynMvl-oFBVRxxg)
-- [yolo_v2](https://drive.google.com/open?id=1wqWgHqcwtjXTXvKZgkzfbTvdpDAy8G85)
+- [yolo_v2](https://drive.google.com/open?id=1wqWgHqcwtjXTXvKZgkzfbTvdpDAy8G85) (Updated 19/02/2019: Add missing file 'yolo_v2-50500.data-00000-of-00001')
 
 ## Results
 ### Overview
