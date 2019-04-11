@@ -15,8 +15,8 @@ We provide:
 - Several [pretrained models](#pretrained-models).
 - [Experiment results](#results).
 - Test code to [run the model on new images](#running-on-new-images).
-- Instructions for [training the model](#training).
-- Instructions for [evaluating your models](#evaluation).
+- Instructions for [training your model](#training).
+- Instructions for [evaluating your model](#evaluation).
 - Scripts to create GTSDB TFRecords.
 
 If you find this code useful in your research, please cite:
