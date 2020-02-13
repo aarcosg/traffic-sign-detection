@@ -47,31 +47,31 @@ You can download pre-trained models from Google Drive. Unzip them to the `models
 ### Overview
 Our findings show that Faster R-CNN Inception Resnet V2 obtains the best mAP, while R-FCN Resnet 101 strikes the best trade-off between accuracy and execution time. YOLO V2 and SSD Mobilenet merit a special mention, in that the former achieves competitive accuracy results and is the second fastest detector, while the latter, is the fastest and the lightest model in terms of memory consumption, making it an optimal choice for deployment in mobile and embedded devices.
 
-| model                            | parameters | flops         | memory_mb    | total_exec_millis | accelerator_exec_millis | cpu_exec_millis | mAP   |
-|----------------------------------|------------|---------------|--------------|-------------------|-------------------------|-----------------|-------|
-| Faster R-CNN Resnet 50           | 43337242   | 533575386662  | 5256.454615  | 104.0363553       | 75.93395395             | 28.10240132     | 91.52 |
-| Faster R-CNN Resnet 101          | 62381593   | 625779295782  | 6134.705805  | 123.2729175       | 90.33714433             | 32.9357732      | 95.08 |
-| Faster R-CNN Inception V2        | 12891249   | 120621363525  | 2175.206857  | 58.53338971       | 38.76813971             | 19.76525        | 90.62 |
-| Faster R-CNN Inception Resnet V2 | 59412281   | 1837544257834 | 18250.446008 | 442.2206796       | 366.1586796             | 76062           | 95.77 |
-| R-FCN Resnet 101                 | 64594585   | 269898731281  | 3509.75153   | 85.45207971       | 52.40321739             | 33.04886232     | 95.15 |
-| SSD Mobilenet                    | 5572809    | 2300721483    | 94.696119    | 15.14525          | 4.021267857             | 11.12398214     | 61.64 |
-| SSD Inception V2                 | 13474849   | 7594247747    | 284.512918   | 23.74428378       | 9.393405405             | 14.35087838     | 66.10 |
-| YOLO V2                          | 50588958   | 62780021160   | 1318.108256  | 21.4810122        | 18.13923171             | 3.341780488     | 78.83 |
+| model                            | mAP   | parameters | flops         | memory_mb    | total_exec_millis | accelerator_exec_millis | cpu_exec_millis |
+|----------------------------------|-------|------------|---------------|--------------|-------------------|-------------------------|-----------------|
+| Faster R-CNN Resnet 50           | 91.52 | 43337242   | 533575386662  | 5256.454615  | 104.0363553       | 75.93395395             | 28.10240132     |
+| Faster R-CNN Resnet 101          | 95.08 | 62381593   | 625779295782  | 6134.705805  | 123.2729175       | 90.33714433             | 32.9357732      |
+| Faster R-CNN Inception V2        | 90.62 | 12891249   | 120621363525  | 2175.206857  | 58.53338971       | 38.76813971             | 19.76525        |
+| Faster R-CNN Inception Resnet V2 | 95.77 | 59412281   | 1837544257834 | 18250.446008 | 442.2206796       | 366.1586796             | 76062           |
+| R-FCN Resnet 101                 | 95.15 | 64594585   | 269898731281  | 3509.75153   | 85.45207971       | 52.40321739             | 33.04886232     |
+| SSD Mobilenet                    | 61.64 | 5572809    | 2300721483    | 94.696119    | 15.14525          | 4.021267857             | 11.12398214     |
+| SSD Inception V2                 | 66.10 | 13474849   | 7594247747    | 284.512918   | 23.74428378       | 9.393405405             | 14.35087838     |
+| YOLO V2                          | 78.83 | 50588958   | 62780021160   | 1318.108256  | 21.4810122        | 18.13923171             | 3.341780488     |
 
 ![Results plot](results_radar_plot.png?raw=True "Results plot")
 
 ### Image size comparison
 
-| model                            | small | medium | large | overall |
-|----------------------------------|-------|--------|-------|---------|
-| Faster R-CNN Resnet 50           | 53.57 | 86.95  | 86.72 | 91.52   |
-| Faster R-CNN Resnet 101          | 70.89 | 94.17  | 88.87 | 95.08   |
-| Faster R-CNN Inception V2        | 56.72 | 81.02  | 88.53 | 90.62   |
-| Faster R-CNN Inception Resnet V2 | 68.60 | 86.62  | 82.10 | 95.77   |
-| R-FCN Resnet 101                 | 60.37 | 82.03  | 79.56 | 95.15   |
-| SSD Mobilenet                    | 22.13 | 55.32  | 82.06 | 61.64   |
-| SSD Inception V2                 | 26.85 | 64.71  | 78.76 | 66.1    |
-| YOLO V2                          | 42.93 | 78.99  | 75.67 | 78.83   |
+| model                            | small | medium | large |
+|----------------------------------|-------|--------|-------|
+| Faster R-CNN Resnet 50           | 53.57 | 86.95  | 86.72 |
+| Faster R-CNN Resnet 101          | 70.89 | 94.17  | 88.87 |
+| Faster R-CNN Inception V2        | 56.72 | 81.02  | 88.53 |
+| Faster R-CNN Inception Resnet V2 | 68.60 | 86.62  | 82.10 |
+| R-FCN Resnet 101                 | 60.37 | 82.03  | 79.56 |
+| SSD Mobilenet                    | 22.13 | 55.32  | 82.06 |
+| SSD Inception V2                 | 26.85 | 64.71  | 78.76 |
+| YOLO V2                          | 42.93 | 78.99  | 75.67 |
 
 ![mAP vs image size](mAP_vs_image_size.png?raw=True "mAP vs image size")
 
